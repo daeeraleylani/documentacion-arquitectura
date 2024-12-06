@@ -53,3 +53,9 @@
   height: 450px; /* Mantiene la proporción */
   justify-content: center;
 }
+
+.custom-img-5 {
+  width: 800px;
+  height: 350px; /* Mantiene la proporción */
+  justify-content: center;
+}

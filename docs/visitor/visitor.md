@@ -156,7 +156,7 @@ public class Client {
 
 <img src="https://cdn.discordapp.com/attachments/1120503923942371369/1314475154423681036/check_yes.png?ex=6753e7e2&is=67529662&hm=c418a7c39cfd6c67158e2a50749ba40bd2eda601e8113203fd02dc66c9517741&" alt="Descripción de la imagen" class="custom-img" /> Principio de abierto/cerrado. Puedes introducir un nuevo comportamiento que puede funcionar con objetos de clases diferentes sin cambiar esas clases.  
 <img src="https://cdn.discordapp.com/attachments/1120503923942371369/1314475154423681036/check_yes.png?ex=6753e7e2&is=67529662&hm=c418a7c39cfd6c67158e2a50749ba40bd2eda601e8113203fd02dc66c9517741&" alt="Descripción de la imagen" class="custom-img" /> Principio de responsabilidad única. Puedes tomar varias versiones del mismo comportamiento y ponerlas en la misma clase.  
-<img src="https://cdn.discordapp.com/attachments/1120503923942371369/1314475154423681036/check_yes.png?ex=6753e7e2&is=67529662&hm=c418a7c39cfd6c67158e2a50749ba40bd2eda601e8113203fd02dc66c9517741&" alt="Descripción de la imagen" class="custom-img" />Un objeto visitante puede acumular cierta información útil mientras trabaja con varios objetos. Esto puede resultar útil cuando quieras atravesar una compleja estructura de objetos, como un árbol de objetos, y aplicar el visitante a cada objeto de esa estructura.
+<img src="https://cdn.discordapp.com/attachments/1120503923942371369/1314475154423681036/check_yes.png?ex=6753e7e2&is=67529662&hm=c418a7c39cfd6c67158e2a50749ba40bd2eda601e8113203fd02dc66c9517741&" alt="Descripción de la imagen" class="custom-img" /> Un objeto visitante puede acumular cierta información útil mientras trabaja con varios objetos. Esto puede resultar útil cuando quieras atravesar una compleja estructura de objetos, como un árbol de objetos, y aplicar el visitante a cada objeto de esa estructura.
 
 
 
@@ -170,6 +170,7 @@ public class Client {
 ## Ejemplo en un entorno real
 
 ***Auditoría en una Empresa***  
+
 Contexto:  
 Una empresa tiene varios tipos de empleados: desarrolladores, diseñadores y gerentes. Cada uno de ellos tiene características y responsabilidades diferentes.
 La empresa quiere realizar auditorías anuales y llevar a cabo evaluaciones de desempeño. Cada uno de estos procesos necesita información específica de cada tipo de empleado. Para evitar modificar continuamente las clases de empleados cuando se introduce un nuevo proceso (como "encuestas de satisfacción"), se usa el patrón Visitor.
