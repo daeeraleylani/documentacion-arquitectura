@@ -28,3 +28,28 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+
+.custom-img {
+  width: 25px;
+  height: 20px; /* Mantiene la proporción */
+  justify-content: center;
+}
+
+.custom-img-2 {
+  width: 18px;
+  height: 15px; /* Mantiene la proporción */
+  justify-content: center;
+}
+
+.custom-img-3 {
+  width: 900px;
+  height: 400px; /* Mantiene la proporción */
+  justify-content: center;
+}
+
+.custom-img-4 {
+  width: 900px;
+  height: 450px; /* Mantiene la proporción */
+  justify-content: center;
+}
