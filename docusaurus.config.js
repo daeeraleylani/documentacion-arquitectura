@@ -41,13 +41,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+       
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -86,6 +80,8 @@ const config = {
           {to: '/docs/command', label: 'Command', position: 'left'},
           {to: '/docs/visitor', label: 'Visitor', position: 'left'},
           {to: '/docs/observer', label: 'Observer', position: 'left'},
+          {to: '/docs/Strategy', label: 'Strategy', position: 'left'},
+          {to: '/docs/template-method', label: 'Template method', position: 'left'},
         ],
       },
       footer: {

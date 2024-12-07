@@ -6,7 +6,7 @@ El patrón **Strategy** es un patrón de diseño creacional que permite definir 
 
 Con **Strategy**, puedes cambiar el comportamiento de un objeto en tiempo de ejecución, seleccionando dinámicamente el algoritmo adecuado para la tarea requerida.
 
-<img src="https://cdn.discordapp.com/attachments/696173635441786902/1314796177547333662/strategy-es.png" alt="Descripción de la imagen" class="custom-img-5"/>
+<img src="https://refactoring.guru/images/patterns/content/strategy/strategy.png?id=379bfba335380500375881a3da6507e0" alt="Descripción de la imagen" class="custom-img-5"/>
 
 ## **¿En qué se utiliza el Strategy?**
 
@@ -24,6 +24,15 @@ El patrón Strategy se utiliza cuando:
 ## **Desventajas del Patrón Strategy**
 - **Sobrecarga:** Incrementa el número de clases en el sistema.
 - **Complejidad:** Introduce una capa adicional de abstracción.
+
+
+
+- **Context (Contexto):**  
+  Es el objeto principal que utiliza un objeto estrategia para realizar su trabajo. Tiene una referencia a un objeto de tipo estrategia y delega la ejecución a dicho objeto.
+
+
+
+
 
 ## **Estructura del Patrón Strategy**
 
@@ -44,3 +53,31 @@ public class PaymentContext {
         strategy.pay(amount);
     }
 }
+```
+- **Estrategia (Strategy):**
+Define una interfaz común para todas las estrategias concretas.
+```
+public interface PaymentStrategy {
+    void pay(double amount);
+}
+```
+
+- **Concrete Strategies (Estrategias Concretas):**
+```
+public class CreditCardPayment implements PaymentStrategy {
+    @Override
+    public void pay(double amount) {
+        System.out.println("Pago de $" + amount + " realizado con tarjeta de crédito.");
+    }
+}
+
+public class PayPalPayment implements PaymentStrategy {
+    @Override
+    public void pay(double amount) {
+        System.out.println("Pago de $" + amount + " realizado a través de PayPal.");
+    }
+}
+
+```
+
+
