@@ -4,32 +4,31 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '¿Qué son?',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Los Patrones de Diseño de Comportamiento son soluciones probadas que facilitan la interacción y comunicación entre diferentes objetos en un sistema de software. Se centran en cómo los objetos colaboran, cómo se distribuyen responsabilidades y cómo logran trabajar juntos para resolver problemas complejos.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '¿Qué mejoran?',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       Mejoran la flexibilidad y reutilización del código al estructurar las interacciones de manera eficiente.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Importancia',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Simplifican las interacciones entre componentes.
+        Proveen soluciones estándar para problemas comunes.
+        Facilitan cambios y escalabilidad del sistema.
       </>
     ),
   },
