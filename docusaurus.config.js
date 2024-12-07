@@ -79,7 +79,7 @@ const config = {
         title: 'Patrones de Diseño',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {to: '/docs/state', label: 'State', position: 'left'},
