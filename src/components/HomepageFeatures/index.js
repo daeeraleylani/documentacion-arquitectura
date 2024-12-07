@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: '¿Qué son?',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/2237420.svg').default,
     description: (
       <>
         Los Patrones de Diseño de Comportamiento son soluciones probadas que facilitan la interacción y comunicación entre diferentes objetos en un sistema de software. Se centran en cómo los objetos colaboran, cómo se distribuyen responsabilidades y cómo logran trabajar juntos para resolver problemas complejos.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: '¿Qué mejoran?',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/desktop-computer-svgrepo-com.svg').default,
     description: (
       <>
        Mejoran la flexibilidad y reutilización del código al estructurar las interacciones de manera eficiente.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Importancia',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/security-svgrepo-com.svg').default,
     description: (
       <>
         Simplifican las interacciones entre componentes.
